@@ -29,4 +29,5 @@ After downloading the archive it\'s simply matter of extracting it and copying c
    cp -R tigase-acs-${version}/libs/ tigase-server/libs
 
 3. Tigase ACS SM Configuration
-==============================
+
+In order to user Advanced Clustering Strategy, clustering mode first needs to be turned on:
