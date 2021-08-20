@@ -124,7 +124,7 @@ msgstr ""
 
 #: ../tigase-acs.rst:58
 msgid "4.1.2. Tigase ACS MUC Configuration"
-msgstr "4.1.2.Tigase ACS MUC配置"
+msgstr "4.1.2. Tigase ACS MUC配置"
 
 #: ../tigase-acs.rst:59
 msgid ""
