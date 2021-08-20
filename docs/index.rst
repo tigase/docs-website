@@ -7,7 +7,7 @@ Welcome to Tigase's Documentation
    :maxdepth: 2
    :caption: TIGASE-ACS
 
-   tigase-acs
+   3.2.0
    3.0.1
 
 
