@@ -38,13 +38,13 @@ export REPO_NAME="${GITHUB_REPOSITORY##*/}"
 # BUILD DOCS #
 ##############
  
-# first, cleanup any old builds' static assets
-make -C docs clean
  
 # get a list of branches, excluding 'HEAD' and 'gh-pages'
 versions="`git for-each-ref '--format=%(refname:lstrip=-1)' refs/remotes/origin/ | grep -viE '^(HEAD|gh-pages)$'`"
 for current_version in ${versions}; do
- 
+   # first, cleanup any old builds' static assets
+   make -C docs clean
+
    # make the current language available to conf.py
    export current_version
    git checkout ${current_version}
