@@ -32,3 +32,4 @@ After downloading the archive it\'s simply matter of extracting it and copying c
 ==============================
 
 In order to user Advanced Clustering Strategy, clustering mode first needs to be turned on:
+and then an ACS strategy needs to be enabled:

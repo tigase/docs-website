@@ -76,4 +76,6 @@ With the above configuration default MUC clustering strategy will be used. In or
      strategy (class: tigase.muc.cluster.ShardingStrategy) {}
    }
 
+4.1.3. ACS MUC Strategies
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
