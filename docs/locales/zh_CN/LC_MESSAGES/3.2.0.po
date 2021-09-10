@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version:  TigaseDoc\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-23 03:19-0700\n"
+"POT-Creation-Date: 2021-08-25 00:25-0700\n"
 "PO-Revision-Date: 2021-06-16 19:58+0000\n"
 "Last-Translator: Qian Luo <qian.luo@tigase.net>\n"
 "Language: zh_CN\n"
@@ -144,5 +144,16 @@ msgstr "在上述配置下，将使用默认的MUC集群策略。为了选择不
 
 #: ../../3.2.0.rst:80
 msgid "4.1.3. ACS MUC Strategies"
+msgstr ""
+
+#: ../../3.2.0.rst:81
+msgid "ShardingStrategy"
+msgstr ""
+
+#: ../../3.2.0.rst:83
+msgid ""
+"This is default clustering strategy used by Tigase ACS - MUC component. "
+"It should be used in most cases when we do not have small number of rooms"
+" with many occupants."
 msgstr ""
 

@@ -78,4 +78,6 @@ With the above configuration default MUC clustering strategy will be used. In or
 
 4.1.3. ACS MUC Strategies
 ^^^^^^^^^^^^^^^^^^^^^^^^^
+ShardingStrategy
 
+This is default clustering strategy used by Tigase ACS - MUC component. It should be used in most cases when we do not have small number of rooms with many occupants.
