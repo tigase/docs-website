@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: TigaseDoc master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-23 02:15-0700\n"
+"POT-Creation-Date: 2021-09-15 01:22-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,11 +17,18 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.1\n"
 
-#: ../../index.rst:6
-msgid "TIGASE-ACS"
-msgstr ""
-
 #: ../../index.rst:4
 msgid "Welcome to Tigase's Documentation"
 msgstr ""
+
+#: ../../index.rst:7
+msgid "TIGASE-acs"
+msgstr ""
+
+#: ../../index.rst:16
+msgid "TIGASE-pubsub"
+msgstr ""
+
+#~ msgid "TIGASE-ACS"
+#~ msgstr ""
 

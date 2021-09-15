@@ -17,18 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.1\n"
 
-#: ../../index.rst:4
-msgid "Welcome to Tigase's Documentation"
+#: ../../5.0.0.rst:3
+msgid "Tigase PubSub Component--Version 3.0.1"
 msgstr ""
-
-#: ../../index.rst:7
-msgid "TIGASE-acs"
-msgstr ""
-
-#: ../../index.rst:16
-msgid "TIGASE-pubsub"
-msgstr ""
-
-#~ msgid "TIGASE-ACS"
-#~ msgstr ""
 
