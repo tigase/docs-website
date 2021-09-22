@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: TigaseDoc master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-15 01:22-0700\n"
+"POT-Creation-Date: 2021-09-22 02:15-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,13 +22,103 @@ msgid "Welcome to Tigase's Documentation"
 msgstr ""
 
 #: ../../index.rst:7
-msgid "TIGASE-acs"
+msgid "SISKIN-IM"
 msgstr ""
 
-#: ../../index.rst:16
-msgid "TIGASE-pubsub"
+#: ../../index.rst:15
+msgid "TIGASE-ACS"
+msgstr ""
+
+#: ../../index.rst:24
+msgid "TIGASE-AUDITLOG"
+msgstr ""
+
+#: ../../index.rst:32
+msgid "TIGASE-DATABASE-MIGRATOR"
+msgstr ""
+
+#: ../../index.rst:39
+msgid "TIGASE-HTTP-API"
+msgstr ""
+
+#: ../../index.rst:47
+msgid "TIGASE-IOS"
+msgstr ""
+
+#: ../../index.rst:54
+msgid "TIGASE-IOT-DOCUMENTATION"
+msgstr ""
+
+#: ../../index.rst:61
+msgid "TIGASE-JAXMPP"
+msgstr ""
+
+#: ../../index.rst:68
+msgid "TIGASE-MESSAGE-ARCHIVING"
+msgstr ""
+
+#: ../../index.rst:75
+msgid "TIGASE-MIX"
+msgstr ""
+
+#: ../../index.rst:82
+msgid "TIGASE-MONGODB"
+msgstr ""
+
+#: ../../index.rst:89
+msgid "TIGASE-MUC"
+msgstr ""
+
+#: ../../index.rst:96
+msgid "TIGASE-PUBSUB"
+msgstr ""
+
+#: ../../index.rst:104
+msgid "TIGASE-PUSH"
+msgstr ""
+
+#: ../../index.rst:112
+msgid "TIGASE-SERVER"
+msgstr ""
+
+#: ../../index.rst:120
+msgid "TIGASE-SOCKS5"
+msgstr ""
+
+#: ../../index.rst:128
+msgid "TIGASE-SPAM"
+msgstr ""
+
+#: ../../index.rst:136
+msgid "TIGASE-SWIFT"
+msgstr ""
+
+#: ../../index.rst:144
+msgid "TIGASE-TTS-NG"
+msgstr ""
+
+#: ../../index.rst:152
+msgid "TIGASE-UNIFIED-ARCHIVE"
+msgstr ""
+
+#: ../../index.rst:160
+msgid "TIGASE-UTILS"
+msgstr ""
+
+#: ../../index.rst:168
+msgid "TIGASE-WORKGROUP-QUEUES"
+msgstr ""
+
+#: ../../index.rst:175
+msgid "TIGASE-XMLTOOLS"
 msgstr ""
 
 #~ msgid "TIGASE-ACS"
+#~ msgstr ""
+
+#~ msgid "TIGASE-acs"
+#~ msgstr ""
+
+#~ msgid "TIGASE-pubsub"
 #~ msgstr ""
 
