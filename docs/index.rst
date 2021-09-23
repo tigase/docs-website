@@ -17,9 +17,7 @@ TIGASE-ACS
    :maxdepth: 1
 
    ACS/master
-
    ACS/stable
-
 
 TIGASE-AUDITLOG
 ---------------
