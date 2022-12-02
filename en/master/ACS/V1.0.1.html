@@ -1,0 +1,378 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Tigase Advanced Clustering Strategy (ACS)–Version 3.2.0 &mdash; TigaseDoc 0.1 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/sphinx_highlight.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> TigaseDoc
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                master
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="../SISKIN-IM/master.html">Tigase Messenger for iOS – Version V1.0</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../AUDITLOG/master.html">Tigase AuditLog Component -Version 2.2.0</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../DATABASE-MIGRATOR/master.html">Tigase Database Migrator - Version 1.1.0</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../HTTP-API/master.html">Tigase HTTP API - Version 2.2.0</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../IOS/master.html">Tigase Messenger for iOS</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../IOT-DOCUMENTATION/master.html">Tigase IoT Documentation - Version 1.0</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../JAXMPP/master.html">Tigase JaXMPP</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../MESSAGE-ARCHIVING/master.html">Tigase Message Archiving Component - Version 3.0.0</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../MIX/master.html">Tigase MIX Component - Version 1.0.0</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../MONGODB/master.html">Tigase MongoDB 2.2.0-SNAPSHOT API</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../MUC/master.html">Tigase MUC Component - Version 3.2.0</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../PUBSUB/master.html">Tigase PubSub Component–Version 5.0.0</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../PUSH/master.html">Tigase Push Component - Version 1.2.0</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../SERVER/master.html">Tigase Administration Guide - Version 8.2.0</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../SOCKS5/master.html">Tigase Socks5 Proxy-Version 2.1.0</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../SPAM/master.html">Tigase SPAM Filter-Version 2.2.0</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../SWIFT/master.html">TigaseSwift Development Guide-Version 1.0.0</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../TTS-NG/master.html">Tigase TTS-NG -Version 1.1.0</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../UNIFIED-ARCHIVE/master.html">Tigase Unified Archive Component-Version 3.0.0</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../UTILS/master.html">Tigase Utils 4.2.0-SNAPSHOT API</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../WORKGROUP-QUEUES/master.html">Tigase Workgroup Queues Component (XEP-0142)- Version 1.2.0</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../XMLTOOLS/master.html">Tigase XML Tools- Version 4.2.0</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">TigaseDoc</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>Tigase Advanced Clustering Strategy (ACS)–Version 3.2.0</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            
+              <a href="https://github.com/qianqianluo/test-docs/blob/master/docs/ACS/V1.0.1.rst" class="fa fa-github"> Edit on GitHub</a>
+            
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <section id="tigase-advanced-clustering-strategy-acs-version-3-2-0">
+<h1>Tigase Advanced Clustering Strategy (ACS)–Version 3.2.0<a class="headerlink" href="#tigase-advanced-clustering-strategy-acs-version-3-2-0" title="Permalink to this heading">¶</a></h1>
+<section id="design-and-implementation">
+<h2>1. Design and implementation<a class="headerlink" href="#design-and-implementation" title="Permalink to this heading">¶</a></h2>
+<section id="acs">
+<h3>1.1. ACS<a class="headerlink" href="#acs" title="Permalink to this heading">¶</a></h3>
+<p>ACS is our general purpose, commercial clustering strategy designed for more or less typical XMPP installations easily scaling to millions and beyond of online users without limit on cluster nodes. The load tests we have run over the code were included a user database with 100mln accounts and an average roster size of up to 150, but that's not the limit.</p>
+</section>
+<section id="design">
+<h3>1.2. Design<a class="headerlink" href="#design" title="Permalink to this heading">¶</a></h3>
+<p>The clustering strategy is based on sharing information between cluster nodes about online users. Who is online and where the user is connected. Communication between cluster nodes is processed with the highest priority to ensure minimal delays with online user data population. An efficient synchronization mechanism allows for a minimal traffic between cluster nodes and distributing accurate data about connecting and disconnecting users.</p>
+</section>
+</section>
+<section id="tigase-acs-sm-installation">
+<h2>2. Tigase ACS SM Installation<a class="headerlink" href="#tigase-acs-sm-installation" title="Permalink to this heading">¶</a></h2>
+<p>Tigase ACS SM component is by default provided with Tigase XMPP Server release (&#64;-dist-max&#64; flavour of archive) so it's enough to enable it in the configuration. It can be also obtained from tigase-acs distribution package.</p>
+<p>After downloading the archive it's simply matter of extracting it and copying contents of jars/ directory of extracted archive to the jars/ directory in tigase-server/ installation directory, eg. under *nix systems (assuming the archive was downloaded to main Tigase Server directory):</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>tar -xf tigase-acs-<span class="si">${</span><span class="nv">version</span><span class="si">}</span>.tar.gz
+cp -R tigase-acs-<span class="si">${</span><span class="nv">version</span><span class="si">}</span>/jars/ tigase-server/jars/
+</pre></div>
+</div>
+</section>
+<section id="tigase-acs-sm-configuration">
+<h2>3. Tigase ACS SM Configuration<a class="headerlink" href="#tigase-acs-sm-configuration" title="Permalink to this heading">¶</a></h2>
+<p>In order to user Advanced Clustering Strategy, clustering mode first needs to be turned on:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="s1">&#39;cluster-mode&#39;</span> <span class="o">=</span> <span class="nb">true</span>
+</pre></div>
+</div>
+<p>and then an ACS strategy needs to be enabled:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="s1">&#39;sess-man&#39;</span> <span class="o">{</span>
+ strategy <span class="o">(</span>class: tigase.server.cluster.strategy.OnlineUsersCachingStrategy<span class="o">)</span> <span class="o">{}</span>
+ <span class="o">}</span>
+</pre></div>
+</div>
+</section>
+<section id="supported-components">
+<h2>4. Supported components<a class="headerlink" href="#supported-components" title="Permalink to this heading">¶</a></h2>
+<section id="tigase-advanced-clustering-strategy-for-multi-user-chat-acs-muc">
+<h3>4.1. Tigase Advanced Clustering Strategy for Multi User Chat (ACS-MUC)<a class="headerlink" href="#tigase-advanced-clustering-strategy-for-multi-user-chat-acs-muc" title="Permalink to this heading">¶</a></h3>
+<section id="overview">
+<h4>4.1.1. Overview<a class="headerlink" href="#overview" title="Permalink to this heading">¶</a></h4>
+<p>ACS for MUC allows seamless clustering of MUC rooms across Tigase XMPP server cluster installation. ACS for MUC is required for clustered MUC deployments. If offers various strategies to handle distribution of traffic and rooms across the cluster, which allows fine-tune configuration of the deployment to individual needs.</p>
+</section>
+<section id="tigase-acs-muc-configuration">
+<h4>4.1.2. Tigase ACS MUC Configuration<a class="headerlink" href="#tigase-acs-muc-configuration" title="Permalink to this heading">¶</a></h4>
+<p>In order to use ACS for MUC, main Advance Clustering Strategy is required. Once it's enabled, clustered version of MUC component will be selected by default during startup therefore it's not required to configure it explicitly (make sure no class is configured).</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>muc <span class="o">()</span> <span class="o">{}</span>
+</pre></div>
+</div>
+<p>It's also possible to explicitly configure the class with the following configuration:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>muc <span class="o">(</span>class: tigase.muc.cluster.MUCComponentClustered<span class="o">)</span> <span class="o">{}</span>
+</pre></div>
+</div>
+<p>With the above configuration default MUC clustering strategy will be used. In order to select different strategy you have to configure it's class in strategy bean within muc component bean:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>muc <span class="o">()</span> <span class="o">{</span>
+  strategy <span class="o">(</span>class: tigase.muc.cluster.ShardingStrategy<span class="o">)</span> <span class="o">{}</span>
+<span class="o">}</span>
+</pre></div>
+</div>
+</section>
+<section id="acs-muc-strategies">
+<h4>4.1.3. ACS MUC Strategies<a class="headerlink" href="#acs-muc-strategies" title="Permalink to this heading">¶</a></h4>
+<p>ShardingStrategy</p>
+<p>This is default clustering strategy used by Tigase ACS - MUC component. It should be used in most cases when we do not have small number of rooms with many occupants.</p>
+</section>
+</section>
+</section>
+</section>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2022, Qian Luo
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      <span class="fa fa-book"> Read the Docs</span>
+      v: master
+      <span class="fa fa-caret-down"></span>
+    </span>
+    <div class="rst-other-versions">
+      
+      <dl>
+        <dt>Languages</dt>
+        
+           <strong> 
+          <dd><a href="/docs-website/en/master/">en</a></dd>
+           </strong> 
+        
+          
+          <dd><a href="/docs-website/pl/master/">pl</a></dd>
+          
+        
+          
+          <dd><a href="/docs-website/zh_CN/master/">zh_CN</a></dd>
+          
+        
+      </dl>
+      
+      
+      <dl>
+        <dt>Versions</dt>
+        
+          
+          <dd><a href="/docs-website/en/dev/">dev</a></dd>
+          
+        
+           <strong> 
+          <dd><a href="/docs-website/en/master/">master</a></dd>
+           </strong> 
+        
+      </dl>
+      
+      
+      
+      <hr/>
+      Free document hosting provided by <a href="http://www.readthedocs.org">Read the Docs</a>.
+ 
+    </div>
+  </div>
+
+ 
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
